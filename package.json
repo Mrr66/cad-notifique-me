@@ -7,8 +7,6 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.1.2",
-    "semantic-ui-css": "semantic-ui-css/semantic.min.css",
-    "semantic-ui-react": "semantic-ui-react",
     "react-scripts": "3.0.1"
   },
   "scripts": {
@@ -16,7 +14,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbild": "cd client && npm install && npm run build"
+    "heroku-postbild": "cd cad-notifique-me && npm install && npm run build"
   },
   "browserslist": {
     "production": [

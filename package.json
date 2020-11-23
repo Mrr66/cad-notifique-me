@@ -6,16 +6,15 @@
     "aws-amplify": "^1.1.28",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cd backend && npm install && node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "eject": "react-scripts eject",
+    "heroku-postbild": "cd client && npm install && npm run build"
   },
   "browserslist": {
     "production": [

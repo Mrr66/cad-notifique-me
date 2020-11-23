@@ -9,7 +9,7 @@ IF EXIST "%dp0%\node.exe" (
   SET PATHEXT=%PATHEXT:;.JS;=;%
 )
 
-"%_prog%"  "%dp0%\node_modules\terser\bin\terser" %*
+"%_prog%"  "%dp0%\node_modules\terser\bin\uglifyjs" %*
 ENDLOCAL
 EXIT /b %errorlevel%
 :find_dp0

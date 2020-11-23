@@ -7,8 +7,8 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.1.2",
-    "react-router-dom": "semantic-ui-css/semantic.min.css",
-    "react-router-dom": "semantic-ui-react",
+    "semantic-ui-css": "semantic-ui-css/semantic.min.css",
+    "semantic-ui-react": "semantic-ui-react",
     "react-scripts": "3.0.1"
   },
   "scripts": {
